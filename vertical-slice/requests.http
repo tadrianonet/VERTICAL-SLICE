@@ -1,0 +1,22 @@
+### Criação de um novo usuário
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "ssss@example.com",
+  "password": "password123"
+}
+
+###
+
+
+### Criação de um novo investimento
+POST http://localhost:3000/api/investments
+Content-Type: application/json
+
+{
+  "user": "666adb533c460d59fb98c35a", 
+  "amount": 10000,
+  "date": "2024-01-01T00:00:00Z"
+}
